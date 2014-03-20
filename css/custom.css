@@ -1,0 +1,24 @@
+.photo-gallery
+{
+	max-width: 500px;
+	float:left;
+	display:inline-block;
+}
+.extra-info
+{
+	display:inline-block;
+	float:right;
+}
+.fashion-show-information
+{
+	max-width: 900px;
+	display:inline-block;
+}
+footer{
+	padding: 2em 0;
+	border-top: 1px solid #ddd;
+	color: #999;
+	margin: 3em;
+	text-align:center;
+	width: 100%;
+}
