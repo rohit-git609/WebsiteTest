@@ -56,7 +56,9 @@ namespace Test.LanderTestFW.Pages
 
         private WebDriverWait wait; 
 
-        
+        private WebDriverWait wait1; 
+		
+		
         public PageLogin(IWebDriver driver)
         {
             this.driver = driver;
