@@ -46,12 +46,7 @@ namespace Test.LanderTestFW.Pages
         [FindsBy(How = How.ClassName, Using = "field-validation-error")]
         private IWebElement loginError;
 
-        [FindsBy(How = How.CssSelector, Using = "span.error-found.comment-login")]
-        private IWebElement Errors;
-
-        [FindsBy(How = How.ClassName, Using = "validationContainer2")]
-        private IWebElement sent;
-
+       
         private IWebDriver driver;
 
         private WebDriverWait wait; 
@@ -72,10 +67,16 @@ namespace Test.LanderTestFW.Pages
             Email.Clear();
             Email.SendKeys(value);
         }
-
-        protected override bool Condition()
+		//nuevo metodo fantastico agregado
+        protected override bool Condition(Object Model)
         {
-            throw new NotImplementedException();
+            if ((Client)Object.IsActive == true)
+				{
+				return false;
+				}
+			else 
+				return true;
+			return true;
         }
 
         public void setPassword(string value)
