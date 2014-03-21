@@ -142,10 +142,11 @@ namespace Test.LanderTestFW.Pages
             return loginError.Text.ToString();
         }
 
-        public OverallPage LogIn(string email,string pass) {
+        public OverallPage LogIn(string email,string password) {
             setEmail(email);
-            setPassword(pass);
+            setPassword(password);
             pressLogInButton();
+			getloginErrorMessage();
             return new OverallPage(this.driver);
         }
     }
