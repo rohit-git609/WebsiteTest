@@ -1,5 +1,5 @@
 Esto es una prueba a ver si hay conflictos, conflictos;
 added amarelo boton
-
+Yo pensaba que el ; va al final pero lo puse al medio
 var j;
 prueba error, conflicto!
