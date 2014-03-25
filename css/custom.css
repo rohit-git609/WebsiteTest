@@ -22,3 +22,11 @@ footer{
 	text-align:center;
 	width: 100%;
 }
+test{
+	padding: 5em 0;
+	border-top: 1px solid #ddd;
+	color: #999;
+	margin: 3em;
+	text-align:center;
+	width: 90%;
+}
