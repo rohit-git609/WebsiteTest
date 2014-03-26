@@ -6,3 +6,5 @@ $(document).ready(function() {
        $('.greeting-content').append(data.content);
     });
 });
+
+/* Add a comment to this file */
